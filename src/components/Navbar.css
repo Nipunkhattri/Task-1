@@ -1,0 +1,43 @@
+.nav{
+    /* border: 2px solid red; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+}
+.blur{
+    opacity: 0.4;
+}
+.account{
+    margin-right: 40px;
+}
+.text>i{
+    position: relative;
+    top: 1px;
+    left: 23px;
+    /* border: 2px solid red; */
+}
+/* input:-moz-placeholder { text-align:right; } */
+input::placeholder {
+    text-align: center;
+    /* right: 120px; */
+}
+p>span{
+    color: blue;
+}
+.text>input{
+    width: 380px;
+    height: 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.head{
+    margin-left: 12px;
+}
+.head>h1{
+    font-size: 22px;
+}
+.Navbar__Items--right {
+    /* margin-left:auto; */
+    /* margin-right: 120px; */
+  }
